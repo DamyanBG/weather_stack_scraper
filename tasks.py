@@ -5,7 +5,7 @@ GET_CURRENT_DATA_URL = config("WEATHERSTACK_URL")
 GET_PREDICTION_DATA_URL = config("WEATHERSTACK_PREDICTION_URL")
 API_KEY = config("WEATHERSTACK_KEY")
 
-POST_URL = "http://localhost:5000"
+POST_URL = "http://192.168.0.189:8000"
 
 get_current_data_params = {"access_key": API_KEY, "query": "Dobrich"}
 
